@@ -109,7 +109,7 @@ function App() {
       <footer>
         <p>
           <span>Made with 💚 and 👩🏻‍💻</span>
-          <span>by Teffcode and Platzi</span>
+          <span>by DevRoZccn and Platzi</span>
         </p>
       </footer>
     </>

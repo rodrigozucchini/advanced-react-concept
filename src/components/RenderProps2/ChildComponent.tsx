@@ -1,8 +1,12 @@
-const ChildComponent = () => {
-  return (
-    <>
-    </>
-  );
-};
+interface ChildComponentProps {
+  data: string[];
+}
 
-export default ChildComponent;
+export const ChildComponent: React.FC<ChildComponentProps> = ({ data }) => (
+  <>
+    {data.map((item, index) => (
+      <li key={index}>{item}</li>
+    ))}
+  </>
+);
+
